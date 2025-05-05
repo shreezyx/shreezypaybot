@@ -3,7 +3,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 # === Configuration ===
-BOT_TOKEN = '8082068891:AAGxcb430j-g3MefRCoF-zfo8mlvZkIJ-YI'
+import os
+BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
 SOURCE_GROUP_ID = -1002668261562  # Group A
 DEST_GROUP_ID = -4707332741    # Group B
 ALLOWED_USER_ID = 7333557425       # Only forward messages from this user (Group A → B)
