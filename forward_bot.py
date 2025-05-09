@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 # === Configuration ===
 import os
 BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
-SOURCE_GROUP_ID = -4777887764  # Group A
+SOURCE_GROUP_ID = -1002529651007  # Group A
 DEST_GROUP_ID = -4707332741    # Group B
 ALLOWED_USER_ID = 7736896844      # Only forward messages from this user (Group A → B)
 BANNED_KEYWORDS = ["总入款", "汇率", "交易费率","pay"]  # Don't forward if found in message
