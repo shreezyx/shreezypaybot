@@ -17,7 +17,7 @@ GROUP_PAIRS = [
     {
         "source_group_id": -4788525991,    # Group A2
         "dest_group_id": -4789201862,      # Group B2
-        "allowed_user_ids": [7673528399]
+        "allowed_user_ids": [7673528399,104784211]
     },
     # Add more pairs here
 ]
